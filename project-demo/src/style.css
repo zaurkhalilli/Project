@@ -41,9 +41,10 @@
 }
 
 #top .topmenu .dropbtn {
-  background-color: #04AA6D;
+  background-color: rgba(255, 255, 255, 0.16);
   color: white;
-  padding: 16px;
+  margin-top: -15px;
+  padding: 11px;
   font-size: 16px;
   border: none;
 }
@@ -76,10 +77,6 @@
 
 #top .topmenu .dropdown:hover .dropdown-content {
   display: block;
-}
-
-#top .topmenu .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 #top .topmenu button {
