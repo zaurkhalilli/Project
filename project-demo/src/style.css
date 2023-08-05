@@ -7,6 +7,10 @@
   background-image: url("https://s3-alpha-sig.figma.com/img/8e6b/5210/2d6bdac02a35769e4db4ef9df4ea60a1?Expires=1691971200&Signature=fHpKiUFvcFsEnzxXh4cAqWA2oizBEYym3KdoIJgfjmNFKecabmUrrDgaaRooZ5RSFxKdhrqZ0NYsX2qVo2j7vQtj0DuVNlETofGjiN5XW4jaHhfAbh389NyZVIg12Gzzsx6Lp3AiVhwSCNre56dzlvzUH~I1TaLDKItWMsWha4mm9P-GpMBzkIJ5mL8YED10Hbu-~wtLn7oD5mlrnCOht41gN5JLxEoEvBz2l23OftkPxOPu91bJIXSVPlBChII-PKZDFgadg0CegDgPcPMFCHwB20MeVFqarsEQXK3Zj8JjkPJOK7aHQZLacch8MGgVMkpiL3eX4qa~Gf2XWx3d~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
 }
 
+#top .topleft {
+  padding-left: 50px;
+}
+
 #top .topleft p {
   padding-top: 60px;
   color: #FFF;
