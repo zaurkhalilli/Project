@@ -75,13 +75,17 @@
     }
 }
 #middle{
+  background: #1F1F1F;
   .swiper {
-    margin-top: 20px;
+    padding-top: 80px;
     width: 100%;
     height: 100%;
   }
 
   .swiper-slide {
+    border-radius: 8px;
+
+
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -92,6 +96,8 @@
 
   .swiper-slide img {
     display: block;
+    border-radius: 8px;
+
     width: 100%;
     height: 100%;
     object-fit: cover;
