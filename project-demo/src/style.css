@@ -132,6 +132,10 @@
   border: 1px #0FF7F0, #D686FF;
 }
 
+#top .top-right svg {
+  color: #FFF;
+}
+
 #middle {
   background: #1F1F1F;
 }
