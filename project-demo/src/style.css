@@ -115,6 +115,10 @@
   border: 1px #0FF7F0, #D686FF;
 }
 
+#top .top-right .watchlist button span {
+  color: red;
+}
+
 #top .top-right .signin button {
   -webkit-box-align: center;
       -ms-flex-align: center;
