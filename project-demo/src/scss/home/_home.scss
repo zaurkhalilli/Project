@@ -73,6 +73,25 @@
         border: none;
     }   
     }
+    .top-right{
+      display: flex;
+      padding-top: 60px;
+      justify-content: flex-start;
+      border: 1px #0FF7F0, #D686FF;
+      gap: 10px;
+      .watchlist{
+        button{
+          align-items: center;
+          border-radius: 8px;
+          background: rgba(255, 255, 255, 0.16);
+          color: white;
+          padding: 11px;
+          font-size: 1.1rem;
+          border: 1px #0FF7F0, #D686FF;
+        }
+      }
+     
+    }
 }
 #middle{
   background: #1F1F1F;
