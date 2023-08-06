@@ -101,16 +101,14 @@
   padding-top: 80px;
   width: 100%;
   height: 100%;
+  padding: 60px;
 }
 
 #middle .swiper-slide {
   border-radius: 8px;
   text-align: center;
   font-size: 18px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -122,10 +120,17 @@
 #middle .swiper-slide img {
   display: block;
   border-radius: 8px;
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#middle .swiper-slide p {
+  padding-top: 20px;
+  float: left;
+  color: white;
 }
 
 #middle .swiper {
@@ -175,13 +180,5 @@
 
 #middle .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
-}
-
-#middle .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
