@@ -133,6 +133,18 @@
   color: white;
 }
 
+@media (max-width: 640px) {
+  #middle .swiper-button-next {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  #middle .swiper-button-prev {
+    display: none;
+  }
+}
+
 #middle .swiper {
   width: 100%;
   height: 300px;
