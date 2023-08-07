@@ -31,6 +31,24 @@
   border: 1px #0FF7F0, #D686FF;
 }
 
+@media (max-width: 968px) {
+  #top .topmenu .menu1 {
+    display: none;
+  }
+}
+
+@media (max-width: 968px) {
+  #top .topmenu .menu2 {
+    display: none;
+  }
+}
+
+@media (max-width: 968px) {
+  #top .topmenu .dropbtn {
+    display: none;
+  }
+}
+
 #top .topmenu span {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -194,6 +212,63 @@
   margin-right: 30px;
   float: right;
   color: #FFF;
+}
+
+#top .menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100vh;
+}
+
+#top .menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: auto;
+}
+
+@media (min-width: 969px) {
+  #top .menu-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #top .menu-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #top .menu {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 969px) {
+  #top .mobile-menu {
+    display: none;
+  }
+}
+
+#top .mobile.menu {
+  top: 0;
+}
+
+#top .mobile.menu svg {
+  color: #fff;
+  float: right;
 }
 
 #middle {
