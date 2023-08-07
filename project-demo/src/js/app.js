@@ -65,3 +65,27 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
+
+
+const dropdownBtn = document.querySelector('.dropdown-btn');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+dropdownBtn.addEventListener('click', function() {
+  if (dropdownMenu.style.display === 'none') {
+    dropdownMenu.style.display = 'block';
+  } else {
+    dropdownMenu.style.display = 'none';
+  }
+});
+
+
+const dropdown = document.querySelector('.dropdown-hover');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+dropdown.addEventListener('mouseover', () => {
+  dropdownContent.style.display = 'block';
+});
+
+dropdown.addEventListener('mouseout', () => {
+  dropdownContent.style.display = 'none';
+});
