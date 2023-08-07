@@ -83,6 +83,13 @@
       padding-top: 60px;
       border: 1px #0FF7F0, #D686FF;
       gap: 10px;
+      @media (max-width: 968px) {
+        .watchlist {
+          display: none;
+        }
+      }
+  
+
       .watchlist{
         .dropdown-menu {
           display: none;
@@ -134,6 +141,11 @@
           svg{
             color: #E24D4D;
           }
+        }
+      }
+      @media (max-width: 968px) {
+        .signin {
+          display: none;
         }
       }
       .signin{

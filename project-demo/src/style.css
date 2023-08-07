@@ -105,6 +105,12 @@
   gap: 10px;
 }
 
+@media (max-width: 968px) {
+  #top .top-right .watchlist {
+    display: none;
+  }
+}
+
 #top .top-right .watchlist .dropdown-menu {
   display: none;
   margin-left: -100px;
@@ -162,6 +168,12 @@
 
 #top .top-right .watchlist button svg {
   color: #E24D4D;
+}
+
+@media (max-width: 968px) {
+  #top .top-right .signin {
+    display: none;
+  }
 }
 
 #top .top-right .signin button {
