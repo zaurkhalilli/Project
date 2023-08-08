@@ -231,11 +231,12 @@
       z-index: 999;
       background-color: #000000;
       transition: left 0.3s ease-in-out;
-      h3{
+      h2{
         padding: 20px;
       }
       li {
-        padding: 20px;
+        padding-top: 50px;
+        padding-left: 20px;
       }
       a {
         font-size: 1.8rem;
@@ -245,7 +246,8 @@
       p{
         padding-left: 20px;
         font-size: 1.6rem;
-        
+        position: absolute;
+        bottom: 0;
       }
     }
     .show-menu {

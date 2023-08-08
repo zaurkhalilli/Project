@@ -259,12 +259,13 @@
   transition: left 0.3s ease-in-out;
 }
 
-#top .menu h3 {
+#top .menu h2 {
   padding: 20px;
 }
 
 #top .menu li {
-  padding: 20px;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
 #top .menu a {
@@ -276,6 +277,8 @@
 #top .menu p {
   padding-left: 20px;
   font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
 }
 
 #top .show-menu {
