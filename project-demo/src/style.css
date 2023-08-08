@@ -207,8 +207,8 @@
   border: 1px #0FF7F0, #D686FF;
 }
 
-#top .top-right .signin .navbar {
-  background-color: #333;
+#top .responsive-menu {
+  float: right;
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,25 +216,35 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-#top .top-right .signin .icon {
-  display: inline-block;
+@media (min-width: 968px) {
+  #top .responsive-menu .mobile-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 968px) {
+  #top .responsive-menu .menu {
+    display: none;
+  }
+}
+
+#top .icon {
   cursor: pointer;
 }
 
-#top .top-right .signin .icon span {
+#top .icon svg {
   display: block;
-  width: 30px;
-  height: 3px;
-  background-color: #fff;
-  margin: 6px 0;
+  width: 60px;
+  height: 40px;
+  color: #fff;
 }
 
-#top .top-right .signin .menu {
+#top .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -243,21 +253,30 @@
   left: -50%;
   width: 50%;
   height: 100%;
-  background-color: #333;
+  z-index: 999;
+  background-color: #000000;
   -webkit-transition: left 0.3s ease-in-out;
   transition: left 0.3s ease-in-out;
 }
 
-#top .top-right .signin .menu li {
+#top .menu h3 {
   padding: 20px;
 }
 
-#top .top-right .signin .menu a {
+#top .menu li {
+  padding: 20px;
+}
+
+#top .menu a {
   color: #fff;
   text-decoration: none;
 }
 
-#top .top-right .signin .show-menu {
+#top .menu p {
+  padding: 20px;
+}
+
+#top .show-menu {
   left: 0;
 }
 
@@ -273,7 +292,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 100vh;
+  height: 100px;
 }
 
 #top .menu {

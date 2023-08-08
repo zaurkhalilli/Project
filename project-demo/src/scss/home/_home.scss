@@ -171,6 +171,8 @@
           display: none;
         }
       }
+     
+   
       .signin{
         button{
           align-items: center;
@@ -183,59 +185,71 @@
           border: 1px #0FF7F0, #D686FF;
         
         }
-        .navbar {
-          background-color: #333;
-          padding: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
         
-        .icon {
-          display: inline-block;
-          cursor: pointer;
-        }
-        
-        .icon span {
-          display: block;
-          width: 30px;
-          height: 3px;
-          background-color: #fff;
-          margin: 6px 0;
-        }
-        
-        .menu {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          position: fixed;
-          top: 0;
-          left: -50%; 
-          width: 50%;
-          height: 100%;
-          background-color: #333;
-          transition: left 0.3s ease-in-out;
-        }
-        
-        .menu li {
-          padding: 20px;
-        }
-        
-        .menu a {
-          color: #fff;
-          text-decoration: none;
-        }
-        
-        .show-menu {
-          left: 0;
-        }
-        
-        
+       
       }
   
     }
+    .responsive-menu {
+      @media (min-width: 968px) {
+        .mobile-icon{
+          display: none;
+        }
+      }
+      @media (min-width: 968px) {
+        .menu{
+          display: none;
+        }
+      }
+      float: right;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+    .icon {
+      cursor: pointer;
+      svg{
+        display: block;
+        width: 60px;
+        height: 40px;
+        color: #fff;
+      }
+    }
+    
+    
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      left: -50%; 
+      width: 50%;
+      height: 100%;
+      z-index: 999;
+      background-color: #000000;
+      transition: left 0.3s ease-in-out;
+      h3{
+        padding: 20px;
+      }
+      li {
+        padding: 20px;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      p{
+        padding: 20px;
+      }
+    }
+    .show-menu {
+      left: 0;
+    }
+    
     .voice{
-     
       svg{
         margin-top: 130px;
         margin-right: 30px;
@@ -246,7 +260,7 @@
     .menu-container {
       display: flex;
       width: 50%;
-      height: 100vh;
+      height: 100px;
      
     }
   
