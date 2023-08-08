@@ -190,7 +190,6 @@
           display: none;
           position: fixed;
           top: 0;
-          left: 0;
           width: 100%;
           height: 100%;
           background-color: rgba(0, 0, 0, 0.7);
@@ -199,37 +198,102 @@
         }
         
         .modal-content {
-          background-color: #fff;
+          border-radius: 30px;
+          background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+          box-shadow: -2.418426275253296px -2.418426275253296px 120.92131805419922px 0px rgba(255, 255, 255, 0.02) inset;
+          backdrop-filter: blur(7.5px);
           padding: 20px;
-          border-radius: 5px;
+          width: 35%;
+          height: 500px;
+          border-radius: 20px;
           position: relative;
+          h2{
+            color: #fff;
+            padding-top: 30px;
+            text-align: center;
+          }
+          h5{
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+          }
+          input{
+            width: 80%;
+            border-radius: 8px;
+            margin-left: 50px;
+            padding: 12px;
+            background-color: #000000;
+            color: #fff;
+            border: 1px #0FF7F0, #D685FF;
+            outline: none;
+          }
+          label{
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            color: #fff;
+          }
+          a{
+            float: right;
+            padding-right: 50px;
+            font-family: Gilroy-Medium;
+            font-size: 14px;
+            font-style: normal;
+            letter-spacing: 0.075rem;
+            color: #FFF;
+            font-weight: 400;
+            line-height: 120%; 
+            text-decoration: none;
+          }
+          .modalsubmit{
+            display: flex;
+            padding-top: 30px;
+            justify-content: space-around;
+            button{
+              padding: 15px;
+              background-color: #333;
+              color: white;
+              border: none;
+              width: 160px;
+              cursor: pointer;
+              display: inline-flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+              border-radius: 55px;
+              background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+              box-shadow: -3.325335741043091px -3.325335741043091px 166.2667999267578px 0px rgba(255, 255, 255, 0.02) inset;
+              backdrop-filter: blur(6.875px);
+            }
+            a{
+              letter-spacing: 0.075rem;
+              padding-top: 20px;
+            }
+          }
         }
         
         .close-button {
           position: absolute;
           top: 10px;
+          color: #fff;
+          display: inline-flex;
+          padding: 11.824px 9.676px 9.676px 11.824px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 43px;
+          background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+          box-shadow: -2.5998082160949707px -2.5998082160949707px 129.99041748046875px 0px rgba(255, 255, 255, 0.02) inset;
+          backdrop-filter: blur(5.375px);
           right: 10px;
           font-size: 20px;
           cursor: pointer;
         }
         
-        form label, form input, form button {
-          display: block;
-          margin-bottom: 10px;
-        }
+       
         
-        form input {
-          width: 80%;
-          padding: 5px;
-        }
+     
         
-        form button {
-          padding: 10px 20px;
-          background-color: #333;
-          color: white;
-          border: none;
-          cursor: pointer;
-        }
+       
         
        
       }
