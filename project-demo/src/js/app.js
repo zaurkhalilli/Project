@@ -96,3 +96,13 @@ function toggleMenu() {
   const menu = document.getElementById('menu');
   menu.classList.toggle('show-menu');
 }
+
+function openModal() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'flex';
+}
+
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'none';
+}
