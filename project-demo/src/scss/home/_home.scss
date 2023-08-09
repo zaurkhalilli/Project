@@ -327,6 +327,12 @@
       margin: 0;
       padding: 0;
       position: fixed;
+      flex: 1;
+      background-color: #000000;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
       top: 0;
       left: -50%; 
       width: 50%;
@@ -372,17 +378,6 @@
      
     }
   
-    .menu {
-      flex: 1;
-      background-color: #000000;
-      color: white;
-      padding: 20px;
-      box-sizing: border-box;
-      overflow-y: auto;
-    }
-  
-  
-
     @media (min-width: 969px) {
       .menu-container {
         display: none;
@@ -392,17 +387,7 @@
     @media (max-width: 768px) {
       .menu-container {
         flex-direction: column;
-      
       }
-    
-  
-      .menu {
-        flex: none;
-        width: 100%;
-        height: 50vh;
-      }
-  
-    
     }
 
     @media (min-width: 969px) {
