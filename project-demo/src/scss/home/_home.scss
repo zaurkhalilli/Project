@@ -43,8 +43,8 @@
         display: none;
       }
     }
-    
-       span{
+
+    span{
         align-items: center;
         border-radius: 4px;
         background: rgba(255, 255, 255, 0.16);
@@ -89,7 +89,6 @@
         display: block;
       }
       
-      
       .dropdown:hover .dropdown-content {display: block;}
       
      button{
@@ -101,6 +100,7 @@
         border: none;
     }   
     }
+
     .top-right{
       display: flex;
       padding-top: 60px;
@@ -148,9 +148,6 @@
               }
             }
           }
-        
-
-        
         }
         button{
           align-items: center;
