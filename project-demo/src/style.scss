@@ -1,1 +1,6 @@
-@import "../src/scss/home/home"
+@import "../src/scss/common/common";
+@import "../src/scss/partials/mixin";
+@import "../src/scss/partials/variable";
+@import "../src/scss/layout/navbar";    
+@import "../src/scss/home/home";
+@import "../src/scss/layout/footer";
